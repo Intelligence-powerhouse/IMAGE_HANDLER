@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="importImage">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveImage">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>151</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="function">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>功能清单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="phantomTank">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>幻影坦克</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pictureCoding">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图片加密</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="blackWhite">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑白图片</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pictureDecoding">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图片解密</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lightChange">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>亮度调节</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pictureMirror">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图像镜像</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pictureSketch">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图片素描</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pictureRotate">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图片旋转</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="display">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>190</y>
+     <width>512</width>
+     <height>288</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="preview">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>190</y>
+     <width>512</width>
+     <height>288</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>3600</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pictureImport_1">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pictureImport_2">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>里层图片</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="keyEdit">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>670</y>
+     <width>821</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pictureEdit">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>620</y>
+     <width>821</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="keyLabel">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>670</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;密钥&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pictureLabel">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>630</y>
+     <width>81</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;加密图片&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="picture1">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="picture2">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>里层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lighter">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="darker">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>里层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="left">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表层图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="right">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>740</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>里层图片</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pictureEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>620</y>
+     <width>821</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="keyEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>670</y>
+     <width>821</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
